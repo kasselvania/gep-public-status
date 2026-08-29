@@ -1,12 +1,13 @@
 ---
-schema_version: 1
+schema_version: 2
 project: generalized_execution_platform
 phase: pre-production
-current_slice: R&D
-current_slice_title: Next bounded platform slice under review
+current_slice: EP1
+current_slice_title: Exact Relation Equipment-Outcome Integration and Output-Custody-Pending Engine Cut
 current_slice_status: active
-last_completed_slice: D8
-last_completed_title: Bounded Spool-to-Parquet Fragment Drain
+last_completed_slice: EQ1
+last_completed_title: Exact Granted Relation WorkStep Baseline Equipment Outcome and Attributable Grant Release
+reviewed_through: EQ1
 ---
 
 # Generalized Execution Platform — Curated Public Status
@@ -18,13 +19,11 @@ evidence exist; it does not imply production or commercial maturity.
 
 ## Current Public Position
 
-GEP remains active pre-production research and development. The completed
-foundation now spans authored scientific definitions, deterministic lowering,
-bounded execution, data custody, persistence, immutable snapshots, queries,
-remembered computation, project composition, and reviewed visual proposals.
+GEP remains active pre-production research and development.
 
-The next bounded platform slice is still under review. No future capability is
-claimed here before its implementation boundary is completed.
+The current bounded route can open an exact project/application context, bind a finite relation Job, admit an immutable Engine realization, form its first data-ready WorkStep and requirement, obtain an A1 allocation decision, and retain one baseline Equipment outcome with attributable grant-release evidence.
+
+EP1 is under active implementation review to integrate that retained Equipment outcome into an Engine-owned output-custody-pending progress cut. No EP1 capability is claimed complete here.
 
 ## Exact Implementation Slice Ledger
 
@@ -51,24 +50,40 @@ claimed here before its implementation boundary is completed.
 | 2026-08-25 | **P5** | local | Bounded resident multi-job service with FIFO readiness and honest drain behavior. |
 | 2026-08-25 | **D7** | local | Bounded local Arrow IPC spool custody that can release resident batch memory. |
 | 2026-08-25 | **D8** | local | Immutable Parquet fragment drain with independent durable-fragment evidence. |
+| 2026-08-25 | **S3** | local | Bounded multi-fragment stream snapshots with exact terminal-recovery evidence. |
+| 2026-08-26 | **CX4** | local | Composition-layer lowering for mixed ordinary and explicitly stateful application definitions. |
+| 2026-08-26 | **M1** | local | First immutable one-shot Dataset Product revision and local materialization over final snapshot custody. |
+| 2026-08-27 | **PJ2** | local | Capability-rooted local project/workspace loading with immutable read-only session evidence. |
+| 2026-08-27 | **RP2** | local | Versioned exact-scaled integer representations with canonical rational identity while preserving v1 bytes. |
+| 2026-08-27 | **PJ3** | local | Immutable loaded-project application context linking an active project session to the existing meaning-blind lowerer. |
+| 2026-08-27 | **L14** | local | One shared source-first exact U32 plus U32 to U33 package at scale 1/100 across two project contexts. |
+| 2026-08-27 | **PJ2R1** | local | Process-wide unique local project-session identities across independent project owners. |
+| 2026-08-27 | **RT1** | local | Retained finite relation requests and complete bound Jobs correlated to an exact project session. |
+| 2026-08-28 | **EN1** | local | Meaning-blind Engine admission of complete bound relation Jobs into immutable not-started logical realizations. |
+| 2026-08-28 | **WS1** | local | First Engine-owned data-ready relation WorkStep with an abstract compute requirement and exact input-lease correlation. |
+| 2026-08-28 | **WA1** | local | Exact WorkStep-derived A1 request with Allocation-owned grant, wait, and current-nonfit truth. |
+| 2026-08-28 | **EQ1** | local | One baseline relation WorkStep outcome with current input-custody validation and Allocation-produced grant-release evidence. |
 
 ## Current Claim Ceiling
 
 GEP is **pre-production**. It does not yet claim:
 
 ```text
-general automatic work scheduling beyond the bounded resident foundation
-restart recovery or directory adoption
-integrated SIMD, GPU, distributed providers, or physical topology
-production snapshot publication over the streaming route
-production catalog, materialization, index, or query services
-general deployment compilation and installed supervision
+accepted Engine progress beyond the completed EQ1 outcome while EP1 remains under implementation review
+Data Plane lease completion, batch retirement, consumption acknowledgment, or output-custody commitment through the current project route
+output publication, Product formation, continuation, persistence, cataloging, Query integration, project-visible output, or Runtime terminal receipt through the current project route
+WorkStep retry, yield, resume, cancellation, checkpointing, migration, or recovery
+resident Player scheduling or automatic event-driven wake through the current project route
+provider registry, provider or device selection, current-machine observation, or optimized, remote, or distributed execution
+multi-batch, open-ended, streaming, Query-input, or Product-input Runtime requests
+general Catalog, index, or Query services over continuing Products
+Workbench run controls, CLI, service host, installed package catalog, or deployment
 commercial deployment readiness
 ```
 
 ## Publication Boundary
 
-This file is intentionally curated. It contains selected platform facts only and
-does not publish private source, application-specific work, private repository
-coordinates, internal review links, secrets, credentials, datasets, or operator
-evidence.
+This file is generated from the reviewed, allowlisted `status.json` in this
+public repository. It contains selected platform facts only and does not publish
+private source, application-specific work, private repository coordinates,
+internal review links, secrets, credentials, datasets, or operator evidence.

@@ -1,0 +1,239 @@
+{
+  "schema": "gep-public-status/v2",
+  "project": "generalized_execution_platform",
+  "phase": "pre-production",
+  "published_at": "2026-08-29T02:07:35Z",
+  "reviewed_through": "EQ1",
+  "current": {
+    "slice": "EP1",
+    "title": "Exact Relation Equipment-Outcome Integration and Output-Custody-Pending Engine Cut",
+    "status": "active"
+  },
+  "last_completed": {
+    "slice": "EQ1",
+    "title": "Exact Granted Relation WorkStep Baseline Equipment Outcome and Attributable Grant Release"
+  },
+  "position": [
+    "GEP remains active pre-production research and development.",
+    "The current bounded route can open an exact project/application context, bind a finite relation Job, admit an immutable Engine realization, form its first data-ready WorkStep and requirement, obtain an A1 allocation decision, and retain one baseline Equipment outcome with attributable grant-release evidence.",
+    "EP1 is under active implementation review to integrate that retained Equipment outcome into an Engine-owned output-custody-pending progress cut. No EP1 capability is claimed complete here."
+  ],
+  "completed": [
+    {
+      "date": "2026-08-20",
+      "slice": "A1",
+      "evidence": "local",
+      "result": "Modular accounting for CPU, resident memory, and spill with exact grant and release."
+    },
+    {
+      "date": "2026-08-20",
+      "slice": "P1",
+      "evidence": "local",
+      "result": "First retained generic scientific job over a finite mechanical program."
+    },
+    {
+      "date": "2026-08-20",
+      "slice": "D1",
+      "evidence": "local",
+      "result": "Bounded in-memory Arrow batch exchange with exact multi-consumer custody."
+    },
+    {
+      "date": "2026-08-20",
+      "slice": "L1",
+      "evidence": "local",
+      "result": "First inert scientific definition and deterministic lowering into generic mechanics."
+    },
+    {
+      "date": "2026-08-20",
+      "slice": "I1",
+      "evidence": "local",
+      "result": "First complete local route across definition, execution, data, and allocation."
+    },
+    {
+      "date": "2026-08-20",
+      "slice": "S1",
+      "evidence": "local",
+      "result": "Immutable local snapshot manifests over exact fragment membership and lineage."
+    },
+    {
+      "date": "2026-08-21",
+      "slice": "Q2",
+      "evidence": "local",
+      "result": "Bounded query results returned to ordinary data-plane custody."
+    },
+    {
+      "date": "2026-08-22",
+      "slice": "P4",
+      "evidence": "local",
+      "result": "Retained remembered-computation profile with private mechanical memory."
+    },
+    {
+      "date": "2026-08-22",
+      "slice": "S2",
+      "evidence": "local",
+      "result": "Immutable snapshots preserving remembered-computation continuity."
+    },
+    {
+      "date": "2026-08-22",
+      "slice": "Q4",
+      "evidence": "local",
+      "result": "Remembered-computation query results returned with explicit empty results."
+    },
+    {
+      "date": "2026-08-23",
+      "slice": "AW4",
+      "evidence": "local",
+      "result": "Bounded reviewed proposals for authored scientific libraries."
+    },
+    {
+      "date": "2026-08-23",
+      "slice": "AS5",
+      "evidence": "local",
+      "result": "Reviewed transactions for remembered scientific libraries."
+    },
+    {
+      "date": "2026-08-23",
+      "slice": "VW1",
+      "evidence": "local",
+      "result": "Project-aware read-only workbench projections and a deterministic prototype."
+    },
+    {
+      "date": "2026-08-24",
+      "slice": "PJ1",
+      "evidence": "local",
+      "result": "Exact project manifests, dependency locks, and shared or vendored resolution."
+    },
+    {
+      "date": "2026-08-24",
+      "slice": "KI1",
+      "evidence": "local",
+      "result": "Typed knowledge identities and a cross-project registry."
+    },
+    {
+      "date": "2026-08-24",
+      "slice": "CX3",
+      "evidence": "local",
+      "result": "Canonical composition of ordinary and remembered scientific applications."
+    },
+    {
+      "date": "2026-08-24",
+      "slice": "VW2",
+      "evidence": "local",
+      "result": "Transactional visual proposals over exact application definitions."
+    },
+    {
+      "date": "2026-08-25",
+      "slice": "D6",
+      "evidence": "local",
+      "result": "Bounded ordered multi-consumer streams with exact watermarks and backpressure."
+    },
+    {
+      "date": "2026-08-25",
+      "slice": "P5",
+      "evidence": "local",
+      "result": "Bounded resident multi-job service with FIFO readiness and honest drain behavior."
+    },
+    {
+      "date": "2026-08-25",
+      "slice": "D7",
+      "evidence": "local",
+      "result": "Bounded local Arrow IPC spool custody that can release resident batch memory."
+    },
+    {
+      "date": "2026-08-25",
+      "slice": "D8",
+      "evidence": "local",
+      "result": "Immutable Parquet fragment drain with independent durable-fragment evidence."
+    },
+    {
+      "date": "2026-08-25",
+      "slice": "S3",
+      "evidence": "local",
+      "result": "Bounded multi-fragment stream snapshots with exact terminal-recovery evidence."
+    },
+    {
+      "date": "2026-08-26",
+      "slice": "CX4",
+      "evidence": "local",
+      "result": "Composition-layer lowering for mixed ordinary and explicitly stateful application definitions."
+    },
+    {
+      "date": "2026-08-26",
+      "slice": "M1",
+      "evidence": "local",
+      "result": "First immutable one-shot Dataset Product revision and local materialization over final snapshot custody."
+    },
+    {
+      "date": "2026-08-27",
+      "slice": "PJ2",
+      "evidence": "local",
+      "result": "Capability-rooted local project/workspace loading with immutable read-only session evidence."
+    },
+    {
+      "date": "2026-08-27",
+      "slice": "RP2",
+      "evidence": "local",
+      "result": "Versioned exact-scaled integer representations with canonical rational identity while preserving v1 bytes."
+    },
+    {
+      "date": "2026-08-27",
+      "slice": "PJ3",
+      "evidence": "local",
+      "result": "Immutable loaded-project application context linking an active project session to the existing meaning-blind lowerer."
+    },
+    {
+      "date": "2026-08-27",
+      "slice": "L14",
+      "evidence": "local",
+      "result": "One shared source-first exact U32 plus U32 to U33 package at scale 1/100 across two project contexts."
+    },
+    {
+      "date": "2026-08-27",
+      "slice": "PJ2R1",
+      "evidence": "local",
+      "result": "Process-wide unique local project-session identities across independent project owners."
+    },
+    {
+      "date": "2026-08-27",
+      "slice": "RT1",
+      "evidence": "local",
+      "result": "Retained finite relation requests and complete bound Jobs correlated to an exact project session."
+    },
+    {
+      "date": "2026-08-28",
+      "slice": "EN1",
+      "evidence": "local",
+      "result": "Meaning-blind Engine admission of complete bound relation Jobs into immutable not-started logical realizations."
+    },
+    {
+      "date": "2026-08-28",
+      "slice": "WS1",
+      "evidence": "local",
+      "result": "First Engine-owned data-ready relation WorkStep with an abstract compute requirement and exact input-lease correlation."
+    },
+    {
+      "date": "2026-08-28",
+      "slice": "WA1",
+      "evidence": "local",
+      "result": "Exact WorkStep-derived A1 request with Allocation-owned grant, wait, and current-nonfit truth."
+    },
+    {
+      "date": "2026-08-28",
+      "slice": "EQ1",
+      "evidence": "local",
+      "result": "One baseline relation WorkStep outcome with current input-custody validation and Allocation-produced grant-release evidence."
+    }
+  ],
+  "not_yet": [
+    "accepted Engine progress beyond the completed EQ1 outcome while EP1 remains under implementation review",
+    "Data Plane lease completion, batch retirement, consumption acknowledgment, or output-custody commitment through the current project route",
+    "output publication, Product formation, continuation, persistence, cataloging, Query integration, project-visible output, or Runtime terminal receipt through the current project route",
+    "WorkStep retry, yield, resume, cancellation, checkpointing, migration, or recovery",
+    "resident Player scheduling or automatic event-driven wake through the current project route",
+    "provider registry, provider or device selection, current-machine observation, or optimized, remote, or distributed execution",
+    "multi-batch, open-ended, streaming, Query-input, or Product-input Runtime requests",
+    "general Catalog, index, or Query services over continuing Products",
+    "Workbench run controls, CLI, service host, installed package catalog, or deployment",
+    "commercial deployment readiness"
+  ]
+}
