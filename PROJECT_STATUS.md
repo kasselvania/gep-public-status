@@ -2,12 +2,12 @@
 schema_version: 2
 project: generalized_execution_platform
 phase: pre-production
-current_slice: LD1
-current_slice_title: Exact Cross-Package Scientific Dependency Resolution and Higher-Library Closure
+current_slice: PI1
+current_slice_title: Exact Dataset Product Re-entry as Finite Input Custody
 current_slice_status: active
-last_completed_slice: L15
-last_completed_title: Exact Scaled U32 Full-Width Signed Difference Shared Library
-reviewed_through: L15
+last_completed_slice: RH1
+last_completed_title: Explicit Local Project Run Host and Durable Product Execution
+reviewed_through: RH1
 ---
 
 # Generalized Execution Platform — Curated Public Status
@@ -21,11 +21,11 @@ evidence exist; it does not imply production or commercial maturity.
 
 GEP remains active pre-production research and development.
 
-The accepted bounded route now carries one exact project from application and Product intent through Runtime, Engine, WorkStep, Allocation, Equipment, live and durable output custody, terminal success, immutable Parquet and snapshot evidence, Dataset Product publication and independent readback, and read-only unified Workbench projection.
+The accepted bounded route now gives an operator one production local host and command that opens an inert project, selects an exact application and Dataset Product, accepts one complete raw Boolean input frame, executes through the existing owners, publishes durable Product custody, and returns typed JSON readback.
 
-L15 proves that one new exact-scaled scientific library can traverse that complete route without changing generic Runtime, Player, Data Plane, Allocation, Product, or Workbench owners.
+Exact locked dependency reuse, project-local scientific-source admission, and versioned package-backed Scientific Law knowledge all traverse the accepted route without changing generic Runtime, Player, Data Plane, Allocation, Product, or Workbench ownership.
 
-LD1 is under active implementation review to prove one exact cross-package scientific dependency lock and one higher pairwise-change package that reuses the accepted L15 mechanics while preserving distinct higher and lower scientific meaning. No LD1 capability is claimed complete here.
+PI1 is under active implementation review to prove that one exact durable Dataset Product can be independently reopened, boundedly decoded, and published into one fresh finite BatchStream input custody. No PI1 capability is claimed complete here.
 
 ## Exact Implementation Slice Ledger
 
@@ -77,22 +77,28 @@ LD1 is under active implementation review to prove one exact cross-package scien
 | 2026-08-30 | **VW3** | local | A completed Dataset Product projects into a deterministic read-only project-result Workbench view. |
 | 2026-08-30 | **VW4R1** | local | Exact local project opening, application and result projections, and presentation-only layout form one unified Workbench shell. |
 | 2026-08-30 | **L15** | local | One source-first exact-scaled U32 signed-difference library traverses the unchanged project-to-Product-to-Workbench route. |
+| 2026-08-31 | **LD1** | local | One exact Definition-owned cross-package dependency lock closes a dependency-first higher-library package over accepted lower mechanics without rebinding. |
+| 2026-08-31 | **PJ5** | local | One capability-rooted project admits its own inert stateless scientific source into a fresh project-scoped package closure and the existing project-to-Product route. |
+| 2026-08-31 | **KI2** | local | Versioned project knowledge admits one package-backed Scientific Law through unchanged application, execution, Product, and Workbench owners while preserving prior identities. |
+| 2026-08-31 | **RH1** | local | One explicit local production command opens an inert project, executes an exact application from raw Boolean inputs, publishes its selected durable Dataset Product, and returns typed JSON readback. |
 
 ## Current Claim Ceiling
 
 GEP is **pre-production**. It does not yet claim:
 
 ```text
-completed cross-package scientific dependency resolution, dependency-lock closure, or higher-library reuse while LD1 remains under implementation review
+completed Dataset Product re-entry into finite BatchStream input custody, Product-backed Runtime input, or a complete later Product-backed Job while PI1 remains under implementation review
+study or experiment source, project data or fact bindings, acquisition, or stateful project runs
 version ranges, semver, latest selection, aliases, ambient catalog dependency resolution, dependency solving, remote retrieval, or filesystem-backed package installation
 WorkStep retry, yield, resume, cancellation, checkpointing, migration, or recovery
 resident Player scheduling or automatic event-driven wake through the current project route
-production Run, Cancel, or Retry controls, persistent run history, or process-restart recovery
+production Cancel or Retry controls, concurrent Jobs, persistent run history, or process-restart recovery
 multi-batch, open-ended, streaming, Query-input, or Product-input Runtime requests
 continuing or reusable Products, Product input to later Jobs, row preview, Product Query, or general Product catalog and index services
-previous-frame or lag state, ordered-series or timestamp identity, missingness, rolling windows, or indicator methods
+scientific value, unit, time, or domain-record parsing, previous-frame or lag state, ordered-series identity, missingness, rolling windows, or indicator methods
 provider registry, provider or device selection, current-machine observation, SIMD, GPU, remote, or distributed execution
-Workbench run controls, CLI, service host, installed package catalog, final desktop packaging, or deployment
+Workbench run controls, persistent daemon or remote service, installed package catalog, final desktop packaging, or deployment
+native-host completion of the outstanding socket-fixture claim or general Linux product support
 commercial deployment readiness
 ```
 
