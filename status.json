@@ -2,21 +2,22 @@
   "schema": "gep-public-status/v2",
   "project": "generalized_execution_platform",
   "phase": "pre-production",
-  "published_at": "2026-08-29T02:07:35Z",
-  "reviewed_through": "EQ1",
+  "published_at": "2026-08-31T04:26:46Z",
+  "reviewed_through": "L15",
   "current": {
-    "slice": "EP1",
-    "title": "Exact Relation Equipment-Outcome Integration and Output-Custody-Pending Engine Cut",
+    "slice": "LD1",
+    "title": "Exact Cross-Package Scientific Dependency Resolution and Higher-Library Closure",
     "status": "active"
   },
   "last_completed": {
-    "slice": "EQ1",
-    "title": "Exact Granted Relation WorkStep Baseline Equipment Outcome and Attributable Grant Release"
+    "slice": "L15",
+    "title": "Exact Scaled U32 Full-Width Signed Difference Shared Library"
   },
   "position": [
     "GEP remains active pre-production research and development.",
-    "The current bounded route can open an exact project/application context, bind a finite relation Job, admit an immutable Engine realization, form its first data-ready WorkStep and requirement, obtain an A1 allocation decision, and retain one baseline Equipment outcome with attributable grant-release evidence.",
-    "EP1 is under active implementation review to integrate that retained Equipment outcome into an Engine-owned output-custody-pending progress cut. No EP1 capability is claimed complete here."
+    "The accepted bounded route now carries one exact project from application and Product intent through Runtime, Engine, WorkStep, Allocation, Equipment, live and durable output custody, terminal success, immutable Parquet and snapshot evidence, Dataset Product publication and independent readback, and read-only unified Workbench projection.",
+    "L15 proves that one new exact-scaled scientific library can traverse that complete route without changing generic Runtime, Player, Data Plane, Allocation, Product, or Workbench owners.",
+    "LD1 is under active implementation review to prove one exact cross-package scientific dependency lock and one higher pairwise-change package that reuses the accepted L15 mechanics while preserving distinct higher and lower scientific meaning. No LD1 capability is claimed complete here."
   ],
   "completed": [
     {
@@ -222,18 +223,91 @@
       "slice": "EQ1",
       "evidence": "local",
       "result": "One baseline relation WorkStep outcome with current input-custody validation and Allocation-produced grant-release evidence."
+    },
+    {
+      "date": "2026-08-28",
+      "slice": "EP1",
+      "evidence": "local",
+      "result": "Engine-owned output-custody requirements and output-custody-pending progress derived from one retained Equipment outcome."
+    },
+    {
+      "date": "2026-08-28",
+      "slice": "OC1",
+      "evidence": "local",
+      "result": "Bounded publication of one exact Equipment output into live Data Plane custody with immutable correlation."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "IC1",
+      "evidence": "local",
+      "result": "Exact output-bound input-consumption acknowledgment with lawful required-consumer completion or retirement."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "RT2",
+      "evidence": "local",
+      "result": "Immutable Runtime terminal-success evidence derived from the retained Job and exact input-consumption acknowledgment."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "OD1",
+      "evidence": "local",
+      "result": "Exact live output transferred into bounded durable local Arrow IPC spool custody with independent readback."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "OD2",
+      "evidence": "local",
+      "result": "Exact spool custody bound to one immutable Parquet fragment with independent readback."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "PJ4",
+      "evidence": "local",
+      "result": "Loaded projects declare Dataset Product intent bound to an exact verified application root output and representation."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "OD3",
+      "evidence": "local",
+      "result": "Exact immutable snapshot-segment custody formed over the completed Parquet fragment roster."
+    },
+    {
+      "date": "2026-08-29",
+      "slice": "M2",
+      "evidence": "local",
+      "result": "Project Product intent, terminal success, and snapshot custody publish one Dataset Product revision with independent materialization readback."
+    },
+    {
+      "date": "2026-08-30",
+      "slice": "VW3",
+      "evidence": "local",
+      "result": "A completed Dataset Product projects into a deterministic read-only project-result Workbench view."
+    },
+    {
+      "date": "2026-08-30",
+      "slice": "VW4R1",
+      "evidence": "local",
+      "result": "Exact local project opening, application and result projections, and presentation-only layout form one unified Workbench shell."
+    },
+    {
+      "date": "2026-08-30",
+      "slice": "L15",
+      "evidence": "local",
+      "result": "One source-first exact-scaled U32 signed-difference library traverses the unchanged project-to-Product-to-Workbench route."
     }
   ],
   "not_yet": [
-    "accepted Engine progress beyond the completed EQ1 outcome while EP1 remains under implementation review",
-    "Data Plane lease completion, batch retirement, consumption acknowledgment, or output-custody commitment through the current project route",
-    "output publication, Product formation, continuation, persistence, cataloging, Query integration, project-visible output, or Runtime terminal receipt through the current project route",
+    "completed cross-package scientific dependency resolution, dependency-lock closure, or higher-library reuse while LD1 remains under implementation review",
+    "version ranges, semver, latest selection, aliases, ambient catalog dependency resolution, dependency solving, remote retrieval, or filesystem-backed package installation",
     "WorkStep retry, yield, resume, cancellation, checkpointing, migration, or recovery",
     "resident Player scheduling or automatic event-driven wake through the current project route",
-    "provider registry, provider or device selection, current-machine observation, or optimized, remote, or distributed execution",
+    "production Run, Cancel, or Retry controls, persistent run history, or process-restart recovery",
     "multi-batch, open-ended, streaming, Query-input, or Product-input Runtime requests",
-    "general Catalog, index, or Query services over continuing Products",
-    "Workbench run controls, CLI, service host, installed package catalog, or deployment",
+    "continuing or reusable Products, Product input to later Jobs, row preview, Product Query, or general Product catalog and index services",
+    "previous-frame or lag state, ordered-series or timestamp identity, missingness, rolling windows, or indicator methods",
+    "provider registry, provider or device selection, current-machine observation, SIMD, GPU, remote, or distributed execution",
+    "Workbench run controls, CLI, service host, installed package catalog, final desktop packaging, or deployment",
     "commercial deployment readiness"
   ]
 }

@@ -2,12 +2,12 @@
 schema_version: 2
 project: generalized_execution_platform
 phase: pre-production
-current_slice: EP1
-current_slice_title: Exact Relation Equipment-Outcome Integration and Output-Custody-Pending Engine Cut
+current_slice: LD1
+current_slice_title: Exact Cross-Package Scientific Dependency Resolution and Higher-Library Closure
 current_slice_status: active
-last_completed_slice: EQ1
-last_completed_title: Exact Granted Relation WorkStep Baseline Equipment Outcome and Attributable Grant Release
-reviewed_through: EQ1
+last_completed_slice: L15
+last_completed_title: Exact Scaled U32 Full-Width Signed Difference Shared Library
+reviewed_through: L15
 ---
 
 # Generalized Execution Platform — Curated Public Status
@@ -21,9 +21,11 @@ evidence exist; it does not imply production or commercial maturity.
 
 GEP remains active pre-production research and development.
 
-The current bounded route can open an exact project/application context, bind a finite relation Job, admit an immutable Engine realization, form its first data-ready WorkStep and requirement, obtain an A1 allocation decision, and retain one baseline Equipment outcome with attributable grant-release evidence.
+The accepted bounded route now carries one exact project from application and Product intent through Runtime, Engine, WorkStep, Allocation, Equipment, live and durable output custody, terminal success, immutable Parquet and snapshot evidence, Dataset Product publication and independent readback, and read-only unified Workbench projection.
 
-EP1 is under active implementation review to integrate that retained Equipment outcome into an Engine-owned output-custody-pending progress cut. No EP1 capability is claimed complete here.
+L15 proves that one new exact-scaled scientific library can traverse that complete route without changing generic Runtime, Player, Data Plane, Allocation, Product, or Workbench owners.
+
+LD1 is under active implementation review to prove one exact cross-package scientific dependency lock and one higher pairwise-change package that reuses the accepted L15 mechanics while preserving distinct higher and lower scientific meaning. No LD1 capability is claimed complete here.
 
 ## Exact Implementation Slice Ledger
 
@@ -63,21 +65,34 @@ EP1 is under active implementation review to integrate that retained Equipment o
 | 2026-08-28 | **WS1** | local | First Engine-owned data-ready relation WorkStep with an abstract compute requirement and exact input-lease correlation. |
 | 2026-08-28 | **WA1** | local | Exact WorkStep-derived A1 request with Allocation-owned grant, wait, and current-nonfit truth. |
 | 2026-08-28 | **EQ1** | local | One baseline relation WorkStep outcome with current input-custody validation and Allocation-produced grant-release evidence. |
+| 2026-08-28 | **EP1** | local | Engine-owned output-custody requirements and output-custody-pending progress derived from one retained Equipment outcome. |
+| 2026-08-28 | **OC1** | local | Bounded publication of one exact Equipment output into live Data Plane custody with immutable correlation. |
+| 2026-08-29 | **IC1** | local | Exact output-bound input-consumption acknowledgment with lawful required-consumer completion or retirement. |
+| 2026-08-29 | **RT2** | local | Immutable Runtime terminal-success evidence derived from the retained Job and exact input-consumption acknowledgment. |
+| 2026-08-29 | **OD1** | local | Exact live output transferred into bounded durable local Arrow IPC spool custody with independent readback. |
+| 2026-08-29 | **OD2** | local | Exact spool custody bound to one immutable Parquet fragment with independent readback. |
+| 2026-08-29 | **PJ4** | local | Loaded projects declare Dataset Product intent bound to an exact verified application root output and representation. |
+| 2026-08-29 | **OD3** | local | Exact immutable snapshot-segment custody formed over the completed Parquet fragment roster. |
+| 2026-08-29 | **M2** | local | Project Product intent, terminal success, and snapshot custody publish one Dataset Product revision with independent materialization readback. |
+| 2026-08-30 | **VW3** | local | A completed Dataset Product projects into a deterministic read-only project-result Workbench view. |
+| 2026-08-30 | **VW4R1** | local | Exact local project opening, application and result projections, and presentation-only layout form one unified Workbench shell. |
+| 2026-08-30 | **L15** | local | One source-first exact-scaled U32 signed-difference library traverses the unchanged project-to-Product-to-Workbench route. |
 
 ## Current Claim Ceiling
 
 GEP is **pre-production**. It does not yet claim:
 
 ```text
-accepted Engine progress beyond the completed EQ1 outcome while EP1 remains under implementation review
-Data Plane lease completion, batch retirement, consumption acknowledgment, or output-custody commitment through the current project route
-output publication, Product formation, continuation, persistence, cataloging, Query integration, project-visible output, or Runtime terminal receipt through the current project route
+completed cross-package scientific dependency resolution, dependency-lock closure, or higher-library reuse while LD1 remains under implementation review
+version ranges, semver, latest selection, aliases, ambient catalog dependency resolution, dependency solving, remote retrieval, or filesystem-backed package installation
 WorkStep retry, yield, resume, cancellation, checkpointing, migration, or recovery
 resident Player scheduling or automatic event-driven wake through the current project route
-provider registry, provider or device selection, current-machine observation, or optimized, remote, or distributed execution
+production Run, Cancel, or Retry controls, persistent run history, or process-restart recovery
 multi-batch, open-ended, streaming, Query-input, or Product-input Runtime requests
-general Catalog, index, or Query services over continuing Products
-Workbench run controls, CLI, service host, installed package catalog, or deployment
+continuing or reusable Products, Product input to later Jobs, row preview, Product Query, or general Product catalog and index services
+previous-frame or lag state, ordered-series or timestamp identity, missingness, rolling windows, or indicator methods
+provider registry, provider or device selection, current-machine observation, SIMD, GPU, remote, or distributed execution
+Workbench run controls, CLI, service host, installed package catalog, final desktop packaging, or deployment
 commercial deployment readiness
 ```
 
