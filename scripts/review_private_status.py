@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail closed when the curated public feed has not reviewed current GEP status."""
+"""Fail closed when the curated public feed has not reviewed live GEP authority."""
 
 from __future__ import annotations
 
@@ -11,54 +11,74 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FRONTMATTER_RE = re.compile(r"\A---\r?\n(?P<body>.*?)\r?\n---\r?\n", re.DOTALL)
+CURRENT_SLICE_HEADING_RE = re.compile(
+    r"\A# Current Slice: (?P<slice>[A-Z]+[0-9]+(?:R[0-9]+)?) — "
+    r"(?P<title>[^\r\n]+)\r?\n"
+)
+AUTHORITY_POSTURE_RE = re.compile(
+    r"^## Authority posture\r?\n\r?\n```text\r?\n"
+    r"(?P<body>.*?)\r?\n```",
+    re.DOTALL | re.MULTILINE,
+)
 
 
-def parse_frontmatter(text: str) -> dict[str, str]:
-    match = FRONTMATTER_RE.match(text)
-    if match is None:
-        raise ValueError("source status has no frontmatter")
-    result: dict[str, str] = {}
-    for line in match.group("body").splitlines():
+def parse_authority_fields(text: str) -> dict[str, str]:
+    heading = CURRENT_SLICE_HEADING_RE.match(text)
+    if heading is None:
+        raise ValueError("current-slice authority has no supported active heading")
+    posture = AUTHORITY_POSTURE_RE.search(text)
+    if posture is None:
+        raise ValueError("current-slice authority has no authority-posture block")
+
+    result = {
+        "current_slice": heading.group("slice"),
+        "current_slice_title": heading.group("title"),
+    }
+    for line in posture.group("body").splitlines():
         key, separator, value = line.partition(":")
         if separator:
             result[key.strip()] = value.strip()
+
+    if result.get("status") != "AUTHORIZED_FOR_IMPLEMENTATION":
+        raise ValueError("current-slice authority is not authorized for implementation")
+    for field in ("last_completed_slice", "last_completed_title"):
+        if not result.get(field):
+            raise ValueError(f"current-slice authority is missing {field}")
     return result
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Compare a local private GEP status report with the reviewed public cut."
+        description="Compare live GEP current-slice authority with the reviewed public cut."
     )
     parser.add_argument(
-        "source_status",
-        help="path to PROJECT_STATUS.md, or - to read an exact git-show result",
+        "current_slice",
+        help="path to docs/current-slice.md, or - to read an exact git-show result",
     )
     args = parser.parse_args()
 
     try:
-        source_text = (
+        authority_text = (
             sys.stdin.read()
-            if args.source_status == "-"
-            else Path(args.source_status).read_text(encoding="utf-8")
+            if args.current_slice == "-"
+            else Path(args.current_slice).read_text(encoding="utf-8")
         )
-        private = parse_frontmatter(source_text)
+        authority = parse_authority_fields(authority_text)
         public = json.loads((ROOT / "status.json").read_text(encoding="utf-8"))
     except (OSError, ValueError, json.JSONDecodeError) as error:
         print(f"PUBLIC_STATUS_REVIEW_ERROR: {error}", file=sys.stderr)
         return 2
 
     expected = {
-        "phase": public["phase"],
         "current_slice": public["current"]["slice"],
         "current_slice_title": public["current"]["title"],
         "last_completed_slice": public["reviewed_through"],
         "last_completed_title": public["last_completed"]["title"],
     }
     mismatches = [
-        f"{key}: private={private.get(key)!r} public={value!r}"
+        f"{key}: authority={authority.get(key)!r} public={value!r}"
         for key, value in expected.items()
-        if private.get(key) != value
+        if authority.get(key) != value
     ]
     if mismatches:
         print("PUBLIC_STATUS_REVIEW_PENDING", file=sys.stderr)

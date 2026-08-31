@@ -1,18 +1,20 @@
 # Publishing one GEP status cut
 
-The private GEP status owns engineering truth. This repository owns only the
-reviewed public projection. The website is a renderer and must not infer new
-claims.
+The private GEP status owns completed engineering truth, and its merged
+`docs/current-slice.md` owns live implementation authority. This repository
+owns only the reviewed public projection. The website is a renderer and must
+not infer new claims.
 
 Do not copy the private status document or restore the retired raw mirror.
 
 ## Selection or completion procedure
 
-1. Read the private GEP status from its current `main` branch.
+1. Read the private GEP status and merged current-slice authority from its
+   current `main` branch.
 2. Run the read-only drift check:
 
    ```sh
-   git -C /path/to/generalized_execution_platform show origin/main:PROJECT_STATUS.md \
+   git -C /path/to/generalized_execution_platform show origin/main:docs/current-slice.md \
      | python3 scripts/review_private_status.py -
    ```
 
@@ -34,7 +36,7 @@ Do not copy the private status document or restore the retired raw mirror.
    python3 scripts/render_status.py --write
    python3 scripts/render_status.py
    python3 -m unittest discover -s tests -v
-   git -C /path/to/generalized_execution_platform show origin/main:PROJECT_STATUS.md \
+   git -C /path/to/generalized_execution_platform show origin/main:docs/current-slice.md \
      | python3 scripts/review_private_status.py -
    ```
 
@@ -46,7 +48,7 @@ Do not copy the private status document or restore the retired raw mirror.
 
 ## Failure law
 
-- A private/public mismatch blocks publication.
+- A merged-authority/public mismatch blocks publication.
 - Invalid or non-generated public artifacts block publication.
 - A failed live readback leaves the last valid site content in place and keeps
   the publication incomplete.
@@ -56,4 +58,4 @@ Do not copy the private status document or restore the retired raw mirror.
 The scheduled live check needs no private-repository credential. A future
 cross-repository detector may receive a dedicated read-only credential, but it
 must only compare the public status coordinates used by
-`review_private_status.py`; it must never mirror the private document.
+`review_private_status.py`; it must never mirror the private authority document.
