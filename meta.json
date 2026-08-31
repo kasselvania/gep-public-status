@@ -1,8 +1,8 @@
 {
   "version": "public-status-v2",
-  "committed_at": "2026-08-31T04:26:46Z",
+  "committed_at": "2026-08-31T23:41:34Z",
   "source": "curated-public-ledger",
   "path": "PROJECT_STATUS.md",
-  "reviewed_through": "L15",
-  "current_slice": "LD1"
+  "reviewed_through": "RH1",
+  "current_slice": "PI1"
 }
