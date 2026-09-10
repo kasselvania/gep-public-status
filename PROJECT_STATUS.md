@@ -2,12 +2,12 @@
 schema_version: 2
 project: generalized_execution_platform
 phase: pre-production
-current_slice: PI1
-current_slice_title: Exact Dataset Product Re-entry as Finite Input Custody
+current_slice: SCC2
+current_slice_title: Stateful Scientific Composition and Ordered-Sequence Continuation
 current_slice_status: active
-last_completed_slice: RH1
-last_completed_title: Explicit Local Project Run Host and Durable Product Execution
-reviewed_through: RH1
+last_completed_slice: SCC1
+last_completed_title: Scientific Composition through Prepared Dataset Execution
+reviewed_through: SCC1
 ---
 
 # Generalized Execution Platform — Curated Public Status
@@ -19,13 +19,19 @@ evidence exist; it does not imply production or commercial maturity.
 
 ## Current Public Position
 
-GEP remains active pre-production research and development.
+GEP is an actively developed Rust platform for composing scientific definitions into executable applications. It remains pre-production.
 
-The accepted bounded route now gives an operator one production local host and command that opens an inert project, selects an exact application and Dataset Product, accepts one complete raw Boolean input frame, executes through the existing owners, publishes durable Product custody, and returns typed JSON readback.
+The current bounded route captures exact source and dependencies, prepares selected scientific packages and applications once, and reuses that preparation across Jobs and typed Dataset execution. Source reads, package formation, resource lifetime, and result attribution are explicitly checked.
 
-Exact locked dependency reuse, project-local scientific-source admission, and versioned package-backed Scientific Law knowledge all traverse the accepted route without changing generic Runtime, Player, Data Plane, Allocation, Product, or Workbench ownership.
+Typed finite datasets can be published to durable custody, independently reopened, and reused as later inputs through supported routes. Arrow and Parquet persistence, bounded data movement, and Allocation-owned resource accounting remain separate responsibilities.
 
-PI1 is under active implementation review to prove that one exact durable Dataset Product can be independently reopened, boundedly decoded, and published into one fresh finite BatchStream input custody. No PI1 capability is claimed complete here.
+A native Project Workbench provides a read-only browser, declared-relationship Flow canvas, and exact source inspection. Its current scope is inspection, not a complete authoring or deployment environment.
+
+SCC1 implements typed stateless scientific composition through prepared Project execution and typed Dataset publication, query/reopen, and later input use. SCC2 is the active implementation selection for modern typed stateful composition and ordered-sequence continuation; that capability is not claimed complete.
+
+Earlier ledger entries retain their historical bounded scope. In particular, predecessor stateful mechanics do not establish completion of the modern SCC2 scientific-source and Dataset route.
+
+The intended product extends from flexible research to preparing useful applications for execution and eventual independent deployment. General distributed execution, GPU realization, and standalone deployment packaging remain future work.
 
 ## Exact Implementation Slice Ledger
 
@@ -81,25 +87,35 @@ PI1 is under active implementation review to prove that one exact durable Datase
 | 2026-08-31 | **PJ5** | local | One capability-rooted project admits its own inert stateless scientific source into a fresh project-scoped package closure and the existing project-to-Product route. |
 | 2026-08-31 | **KI2** | local | Versioned project knowledge admits one package-backed Scientific Law through unchanged application, execution, Product, and Workbench owners while preserving prior identities. |
 | 2026-08-31 | **RH1** | local | One explicit local production command opens an inert project, executes an exact application from raw Boolean inputs, publishes its selected durable Dataset Product, and returns typed JSON readback. |
+| 2026-09-01 | **PI1** | local | An exact durable Dataset Product can be independently reopened and decoded into fresh finite input custody. |
+| 2026-09-01 | **PB1** | local | A bounded local Project run accepts a retained Dataset Product as input and publishes a new durable result. |
+| 2026-09-01 | **PJ6** | local | Versioned Project manifests bind exact Dataset Product inputs with locked independent readback. |
+| 2026-09-02 | **RT4** | local | Runtime authorization retains the exact Project basis for a Product-backed request. |
+| 2026-09-06 | **GM1** | local | Generic finite-region computation executes through explicit Project, Runtime, resource, and output-custody owners. |
+| 2026-09-06 | **NA1** | local | An explicitly authorized controlled-acquisition route retains raw bytes for offline reuse without granting effect authority to scientific execution. |
+| 2026-09-06 | **SD1** | local | Source-defined decoding publishes bounded typed record datasets with durable custody and independent readback. |
+| 2026-09-06 | **PX1** | local | Guarded packed CPU execution runs through existing finite-region and Dataset Jobs without changing their scientific identity. |
+| 2026-09-07 | **EV1** | local | Frame-local evaluator work uses bounded inline snapshots while preserving the established result and lifecycle contracts. |
+| 2026-09-08 | **KG1** | local | Project knowledge and shared content cross explicit ownership boundaries with exact identity and source attribution. |
+| 2026-09-09 | **SDC1** | local | Category-aware scientific Definitions, Applications, and qualified-use observations have distinct owners and explicit evidence limits. |
+| 2026-09-10 | **PSE1** | local | A prepared scientific Project retains selected packages and Applications once for repeated Jobs and typed Dataset execution, with exact result attribution and independent reopen. |
+| 2026-09-10 | **SCC1** | local | Typed stateless scientific Definitions compose exact dependencies into compiler-derived programs and traverse prepared Project execution, typed Dataset publication, query/reopen, and later input reuse. |
 
 ## Current Claim Ceiling
 
 GEP is **pre-production**. It does not yet claim:
 
 ```text
-completed Dataset Product re-entry into finite BatchStream input custody, Product-backed Runtime input, or a complete later Product-backed Job while PI1 remains under implementation review
-study or experiment source, project data or fact bindings, acquisition, or stateful project runs
-version ranges, semver, latest selection, aliases, ambient catalog dependency resolution, dependency solving, remote retrieval, or filesystem-backed package installation
-WorkStep retry, yield, resume, cancellation, checkpointing, migration, or recovery
-resident Player scheduling or automatic event-driven wake through the current project route
-production Cancel or Retry controls, concurrent Jobs, persistent run history, or process-restart recovery
-multi-batch, open-ended, streaming, Query-input, or Product-input Runtime requests
-continuing or reusable Products, Product input to later Jobs, row preview, Product Query, or general Product catalog and index services
-scientific value, unit, time, or domain-record parsing, previous-frame or lag state, ordered-series identity, missingness, rolling windows, or indicator methods
-provider registry, provider or device selection, current-machine observation, SIMD, GPU, remote, or distributed execution
-Workbench run controls, persistent daemon or remote service, installed package catalog, final desktop packaging, or deployment
-native-host completion of the outstanding socket-fixture claim or general Linux product support
-commercial deployment readiness
+completed modern typed stateful scientific composition or ordered-sequence continuation while SCC2 remains the active implementation selection
+arbitrary windows, generic type parameters, time semantics, missing-data policy, live or unbounded scientific streams, or distributed state
+a universal scientific source language, complete Study and Contract Activation workflow, or production acceptance of any application-specific scientific library
+general dependency solving, ambient latest selection, or a persistent remote package-installation service
+a complete native scientific authoring environment, acquisition-control interface, Parquet data browser, or general Workbench run and recovery controls
+general query-result Products, a production-wide catalog/index service, or equivalent query support across every Dataset and Product representation
+general active-Job recovery across process restarts, workload migration, or a complete production scheduler
+GPU, remote, or distributed realization; packed CPU evidence does not establish support for arbitrary accelerators or machines
+live-provider qualification or broader acquisition authority beyond the reviewed controlled route
+standalone deployment compilation, final desktop distribution, commercial readiness, or independent human usability acceptance of every interface
 ```
 
 ## Publication Boundary
